@@ -1,0 +1,65 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0a8bb8df-6bdd-4d10-933b-144d3fa4f517")
+	(paper "A4")
+	(lib_symbols)
+	(text "Sheet 1: Project review \n\nSheet 2: Block of the 5 relay\n\nSheet 3: Block of the sensor PH, EC...\n\nSheet 4: MCU STM32F103C8\n\nSheet 5: Block of Power supply the buck converter and regulator\n\nSheet 6: CANBUS TRANCEIVER\n"
+		(exclude_from_sim no)
+		(at 19.05 56.896 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "303db453-ad8f-4ce9-9da8-215349d7b93e")
+	)
+	(sheet
+		(at 17.78 19.812)
+		(size 46.228 28.448)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 153 0 1)
+		)
+		(fill
+			(color 221 133 0 1.0000)
+		)
+		(uuid "b5cea501-254b-4c6a-af47-d8c013c279ab")
+		(property "Sheetname" "HydroB"
+			(at 17.78 19.1004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HydroB.kicad_sch"
+			(at 17.78 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
