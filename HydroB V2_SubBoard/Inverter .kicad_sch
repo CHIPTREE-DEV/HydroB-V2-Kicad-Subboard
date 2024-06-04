@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(symbol "Converter_ACDC:HLK-5M24"
+		(symbol "Converter_ACDC:HLK-20M12"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -177,7 +177,7 @@
 					)
 				)
 			)
-			(property "Value" "HLK-5M24"
+			(property "Value" "HLK-20M12"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -185,8 +185,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx"
-				(at 0 -7.62 0)
+			(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-20Mxx"
+				(at 0 -6.985 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -194,8 +194,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf"
-				(at 0 -10.16 0)
+			(property "Datasheet" "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9720W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9120W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf"
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -203,7 +203,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Compact AC/DC board mount power module 5W, 24V 0.208A"
+			(property "Description" "Compact AC/DC board mount power module 20W 12V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -221,7 +221,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Converter*ACDC*Hi?Link*HLK?5M*"
+			(property "ki_fp_filters" "Converter*ACDC*Hi?Link*HLK?20M*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -230,7 +230,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "HLK-5M24_0_1"
+			(symbol "HLK-20M12_0_1"
 				(rectangle
 					(start -7.62 3.81)
 					(end 7.62 -3.81)
@@ -399,7 +399,7 @@
 					)
 				)
 			)
-			(symbol "HLK-5M24_1_1"
+			(symbol "HLK-20M12_1_1"
 				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -570,7 +570,7 @@
 				)
 			)
 		)
-		(symbol "power:+24V"
+		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -587,7 +587,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -613,7 +613,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -631,7 +631,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -669,7 +669,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -815,6 +815,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 156.21 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e145183-97a2-4f5b-97cf-a0f1c233bc25")
+		(property "Reference" "#PWR02"
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 160.02 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f2aa933-d785-4de0-b9c4-ca2b5dc01222")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/c02bd2ca-6f3c-422b-bf39-3faef0ad911d"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 158.75 96.52 0)
@@ -882,7 +949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Converter_ACDC:HLK-5M24")
+		(lib_id "Converter_ACDC:HLK-20M12")
 		(at 146.05 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -890,7 +957,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d69754ac-8e20-4372-a0fd-cf0cac9ecebe")
+		(uuid "a9f69161-210f-4137-8a40-c2fa7d7c1ce7")
 		(property "Reference" "PS2"
 			(at 146.05 85.09 0)
 			(effects
@@ -899,7 +966,7 @@
 				)
 			)
 		)
-		(property "Value" "HLK-5M24"
+		(property "Value" "HLK-20M12"
 			(at 146.05 87.63 0)
 			(effects
 				(font
@@ -907,8 +974,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx"
-			(at 146.05 101.6 0)
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-20Mxx"
+			(at 146.05 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,8 +983,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf"
-			(at 146.05 104.14 0)
+		(property "Datasheet" "https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9720W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9120W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf"
+			(at 146.05 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,7 +992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Compact AC/DC board mount power module 5W, 24V 0.208A"
+		(property "Description" "Compact AC/DC board mount power module 20W 12V"
 			(at 146.05 93.98 0)
 			(effects
 				(font
@@ -934,89 +1001,22 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "2cbcdf4d-d703-4610-967e-3e42732841a6")
-		)
-		(pin "4"
-			(uuid "267d9677-578a-46b2-ab97-a81db4e1cede")
-		)
 		(pin "1"
-			(uuid "aa5e4187-ac35-410a-905c-6d0333fe83c3")
+			(uuid "ab535aad-af3f-4cc9-ab82-ba40a4249c35")
 		)
 		(pin "2"
-			(uuid "d22e1ac0-6403-4f56-9786-b74a3628b358")
+			(uuid "710b4b2f-b37a-4354-ae95-6e5edcb7ef36")
+		)
+		(pin "4"
+			(uuid "94814ed7-eac9-4672-9d6a-9cd2411047e2")
+		)
+		(pin "3"
+			(uuid "2b6f4291-32ac-4b69-9791-71c737be51fe")
 		)
 		(instances
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/c02bd2ca-6f3c-422b-bf39-3faef0ad911d"
 					(reference "PS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 156.21 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcd1ec11-320c-4aea-b96d-eb6212752a2b")
-		(property "Reference" "#PWR054"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 160.02 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 156.21 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ba40744-5f0a-451b-94b1-b9ce2ce44f75")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/c02bd2ca-6f3c-422b-bf39-3faef0ad911d"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)

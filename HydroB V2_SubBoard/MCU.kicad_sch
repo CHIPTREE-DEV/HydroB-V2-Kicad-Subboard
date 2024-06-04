@@ -4441,7 +4441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
 			(at 189.23 86.36 0)
 			(effects
 				(font

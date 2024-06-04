@@ -1002,10 +1002,10 @@
 		(uuid "6d4e6303-e7f9-4d41-89da-d4f64643a46e")
 	)
 	(junction
-		(at 142.24 116.84)
+		(at 142.24 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8dd39180-252d-4615-9a7e-24bea92f6f3e")
+		(uuid "fafb2eee-8b69-4a51-971f-5523110bfbf3")
 	)
 	(no_connect
 		(at 132.08 109.22)
@@ -1030,6 +1030,16 @@
 			(type default)
 		)
 		(uuid "3afa735e-2cca-4db7-8759-2eef0478fe23")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e17baa0-47a6-40be-80ef-ff891e668869")
 	)
 	(wire
 		(pts
@@ -1073,17 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 111.76) (xy 127 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca2a47e-4ac4-4bdd-952f-04fb7b5ac024")
-	)
-	(wire
-		(pts
-			(xy 142.24 118.11) (xy 142.24 116.84)
+			(xy 142.24 121.92) (xy 142.24 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 111.76) (xy 127 111.76)
+			(xy 124.46 111.76) (xy 132.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 116.84) (xy 142.24 116.84)
+			(xy 124.46 119.38) (xy 142.24 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1180,8 +1180,75 @@
 		(uuid "9addb99b-7e6f-4c6f-b1a9-60f1668db2be")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 124.46 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fdbf0d8-8fe5-4434-96d6-272011bd810c")
+		(property "Reference" "R21"
+			(at 120.65 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 120.65 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 126.238 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4c339bc-f05a-40ec-889f-6b9bd937d80f")
+		)
+		(pin "2"
+			(uuid "08c2bc59-45be-4333-b3a2-504fde5bd203")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/c3637c88-c6a2-4b34-bb60-5c689faa68ea"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 142.24 118.11 0)
+		(at 142.24 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1190,7 +1257,7 @@
 		(fields_autoplaced yes)
 		(uuid "1187a56c-7283-4589-a31b-5b2313cd6275")
 		(property "Reference" "#PWR037"
-			(at 142.24 124.46 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,7 +1266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 123.19 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 118.11 0)
+			(at 142.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 118.11 0)
+			(at 142.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 118.11 0)
+			(at 142.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
