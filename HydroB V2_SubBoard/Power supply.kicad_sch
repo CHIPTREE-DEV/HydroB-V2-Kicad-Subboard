@@ -2692,7 +2692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 80.9752 121.92 0)
 			(effects
 				(font

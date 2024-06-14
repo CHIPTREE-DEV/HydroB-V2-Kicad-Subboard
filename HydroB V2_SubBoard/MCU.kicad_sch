@@ -2618,7 +2618,7 @@
 		(uuid "07c77356-d01a-4109-b8bf-b43244526ccc")
 	)
 	(no_connect
-		(at 92.71 105.41)
+		(at 92.71 95.25)
 		(uuid "26660152-8547-4e48-8487-3e49b979ee8d")
 	)
 	(no_connect
@@ -2682,11 +2682,11 @@
 		(uuid "dd9500d7-a47f-4088-a30b-d490d0bfa67c")
 	)
 	(no_connect
-		(at 92.71 115.57)
+		(at 92.71 118.11)
 		(uuid "ec10be6e-9faf-4886-aa5b-0106c44cded3")
 	)
 	(no_connect
-		(at 92.71 107.95)
+		(at 92.71 100.33)
 		(uuid "f00fcffd-6932-4760-b011-5904e0d14df4")
 	)
 	(no_connect
@@ -2694,7 +2694,7 @@
 		(uuid "f5887815-2ee5-444c-bedf-e3f7c8316c43")
 	)
 	(no_connect
-		(at 92.71 113.03)
+		(at 92.71 97.79)
 		(uuid "f996adc8-5229-46a9-ad40-415453686e3b")
 	)
 	(wire
@@ -3900,7 +3900,7 @@
 	)
 	(hierarchical_label "RELAY_2"
 		(shape input)
-		(at 92.71 95.25 180)
+		(at 92.71 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3912,7 +3912,7 @@
 	)
 	(hierarchical_label "RELAY_4"
 		(shape input)
-		(at 92.71 97.79 180)
+		(at 92.71 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3960,7 +3960,7 @@
 	)
 	(hierarchical_label "RELAY_1"
 		(shape input)
-		(at 92.71 100.33 180)
+		(at 92.71 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3996,7 +3996,7 @@
 	)
 	(hierarchical_label "RELAY_3"
 		(shape input)
-		(at 92.71 118.11 180)
+		(at 92.71 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4441,7 +4441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 			(at 189.23 86.36 0)
 			(effects
 				(font
