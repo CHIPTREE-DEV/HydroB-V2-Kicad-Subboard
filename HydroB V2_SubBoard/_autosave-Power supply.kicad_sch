@@ -1717,28 +1717,6 @@
 		)
 		(uuid "7a44d433-d6f7-49f4-9ff8-fe37363f9ba7")
 	)
-	(global_label "A"
-		(shape input)
-		(at 146.05 100.33 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59ed0432-e183-4458-bc4f-4c9b7656c84f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 96.2562 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PG"
 		(shape input)
 		(at 100.33 116.84 180)
