@@ -2422,7 +2422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
 			(at 153.67 100.33 0)
 			(effects
 				(font

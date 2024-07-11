@@ -77,16 +77,6 @@
 	)
 	(wire
 		(pts
-			(xy 159.766 77.978) (xy 159.766 83.058)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55322ff1-5e3c-4cf6-ac92-40f8cf415819")
-	)
-	(wire
-		(pts
 			(xy 169.926 97.028) (xy 153.416 97.028)
 		)
 		(stroke
@@ -147,16 +137,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.226 74.168) (xy 163.576 74.168)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dcec471-816d-41dc-abb6-306db9defbcf")
-	)
-	(wire
-		(pts
 			(xy 162.306 104.648) (xy 153.416 104.648)
 		)
 		(stroke
@@ -177,16 +157,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.576 77.978) (xy 159.766 77.978)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0d31af-0719-4f9e-a123-bd682d85301f")
-	)
-	(wire
-		(pts
 			(xy 162.306 110.998) (xy 162.306 104.648)
 		)
 		(stroke
@@ -194,36 +164,6 @@
 			(type default)
 		)
 		(uuid "e3d5f581-1a8e-4ba4-bf7d-aba7dacbf610")
-	)
-	(wire
-		(pts
-			(xy 157.226 79.248) (xy 157.226 74.168)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0874868-701e-4cc5-b17b-d2a7ac60233b")
-	)
-	(wire
-		(pts
-			(xy 153.416 79.248) (xy 157.226 79.248)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1ad5067-e153-46ee-92db-59220d015dd9")
-	)
-	(wire
-		(pts
-			(xy 159.766 83.058) (xy 153.416 83.058)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f229371e-ab96-4f97-b1e6-ae280688d62e")
 	)
 	(wire
 		(pts
@@ -407,7 +347,7 @@
 		)
 	)
 	(sheet
-		(at 101.346 119.888)
+		(at 162.306 66.548)
 		(size 22.86 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -419,7 +359,7 @@
 		)
 		(uuid "c02bd2ca-6f3c-422b-bf39-3faef0ad911d")
 		(property "Sheetname" "Inverter 220VAC-24VDC"
-			(at 101.346 119.1764 0)
+			(at 162.306 65.8364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -428,7 +368,7 @@
 			)
 		)
 		(property "Sheetfile" "Inverter .kicad_sch"
-			(at 101.346 133.1726 0)
+			(at 162.306 79.8326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,64 +380,6 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab"
 					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 163.576 70.358)
-		(size 12.7 10.16)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 221 133 0 1.0000)
-		)
-		(uuid "c3637c88-c6a2-4b34-bb60-5c689faa68ea")
-		(property "Sheetname" "Canbus tranceiver "
-			(at 163.576 69.6464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Canbus.kicad_sch"
-			(at 163.576 81.1026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CAN_TX" input
-			(at 163.576 74.168 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "82c6f039-8053-454d-b6c7-1df94d37d1e0")
-		)
-		(pin "CAN_RX" output
-			(at 163.576 77.978 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "aa12d822-033d-4b3f-8440-1646ffe45279")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab"
-					(page "7")
 				)
 			)
 		)
@@ -652,26 +534,6 @@
 				(justify right)
 			)
 			(uuid "ab5dbf5d-1aea-4a70-ae44-07bc564f34e0")
-		)
-		(pin "CAN_TX" output
-			(at 153.416 79.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "03d2bdda-b89e-4207-9f34-94730f21ecad")
-		)
-		(pin "CAN_RX" input
-			(at 153.416 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5b382602-bf57-47db-bebf-6f734f3c2bd3")
 		)
 		(instances
 			(project "HydroB V2"
