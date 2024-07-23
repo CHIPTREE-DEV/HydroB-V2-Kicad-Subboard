@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 98.298) (xy 126.746 98.298)
+			(xy 123.19 97.79) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.736 93.218) (xy 153.416 93.218)
+			(xy 173.736 92.71) (xy 153.67 92.71)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.116 100.838) (xy 153.416 100.838)
+			(xy 166.116 100.33) (xy 153.67 100.33)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +67,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.496 108.458) (xy 153.416 108.458)
+			(xy 158.496 107.95) (xy 153.67 107.95)
 		)
 		(stroke
 			(width 0)
@@ -77,13 +77,53 @@
 	)
 	(wire
 		(pts
-			(xy 169.926 97.028) (xy 153.416 97.028)
+			(xy 123.19 97.79) (xy 123.19 98.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466088ea-9163-4657-881c-161b02312737")
+	)
+	(wire
+		(pts
+			(xy 125.73 105.41) (xy 125.73 105.918)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4683872c-86aa-4880-98c5-ea9d1f13d5eb")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 124.46 102.108)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685c637a-64d1-4c79-9f09-dcae40af391d")
+	)
+	(wire
+		(pts
+			(xy 169.926 96.52) (xy 153.67 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f40d83f-1783-402a-979d-4935a2e65647")
+	)
+	(wire
+		(pts
+			(xy 125.73 105.918) (xy 110.236 105.918)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723fdac7-1938-40ad-bcd1-cb9191ab9094")
 	)
 	(wire
 		(pts
@@ -97,7 +137,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 102.108) (xy 126.746 102.108)
+			(xy 124.46 101.6) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +157,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.496 114.808) (xy 158.496 108.458)
+			(xy 158.496 114.808) (xy 158.496 107.95)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 105.918) (xy 126.746 105.918)
+			(xy 125.73 105.41) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.306 104.648) (xy 153.416 104.648)
+			(xy 162.306 104.14) (xy 153.67 104.14)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +187,17 @@
 	)
 	(wire
 		(pts
-			(xy 169.926 103.378) (xy 169.926 97.028)
+			(xy 124.46 102.108) (xy 110.236 102.108)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b650eefe-9681-4ff0-87b7-4f226f8472ea")
+	)
+	(wire
+		(pts
+			(xy 169.926 103.378) (xy 169.926 96.52)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +207,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.306 110.998) (xy 162.306 104.648)
+			(xy 162.306 110.998) (xy 162.306 104.14)
 		)
 		(stroke
 			(width 0)
@@ -167,7 +217,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.116 107.188) (xy 166.116 100.838)
+			(xy 123.19 98.298) (xy 110.236 98.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7539488-751a-431e-97eb-5af86bfca078")
+	)
+	(wire
+		(pts
+			(xy 166.116 107.188) (xy 166.116 100.33)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +237,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.736 99.568) (xy 173.736 93.218)
+			(xy 173.736 99.568) (xy 173.736 92.71)
 		)
 		(stroke
 			(width 0)
@@ -347,44 +407,6 @@
 		)
 	)
 	(sheet
-		(at 162.306 66.548)
-		(size 22.86 12.7)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 221 133 0 1.0000)
-		)
-		(uuid "c02bd2ca-6f3c-422b-bf39-3faef0ad911d")
-		(property "Sheetname" "Inverter 220VAC-24VDC"
-			(at 162.306 65.8364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Inverter .kicad_sch"
-			(at 162.306 79.8326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 95.25 72.39)
 		(size 16.51 9.144)
 		(stroke
@@ -422,7 +444,7 @@
 		)
 	)
 	(sheet
-		(at 126.746 75.438)
+		(at 127 74.93)
 		(size 26.67 36.068)
 		(stroke
 			(width 0.1524)
@@ -433,7 +455,7 @@
 		)
 		(uuid "ec9ee8ef-fc9d-4925-9304-49bf7b4d5612")
 		(property "Sheetname" "STM32F103C8"
-			(at 126.746 74.7264 0)
+			(at 127 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,7 +464,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 126.746 113.284 0)
+			(at 127 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -451,7 +473,7 @@
 			)
 		)
 		(pin "RS485_RX" input
-			(at 126.746 102.108 180)
+			(at 127 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -461,7 +483,7 @@
 			(uuid "57d186be-7994-478e-b3cd-f39cb07a6170")
 		)
 		(pin "RS485_TX" input
-			(at 126.746 98.298 180)
+			(at 127 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,7 +493,7 @@
 			(uuid "166a6298-b313-49f3-9000-883dcf26bbd6")
 		)
 		(pin "EN_RS485" input
-			(at 126.746 105.918 180)
+			(at 127 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,7 +503,7 @@
 			(uuid "552edf02-2c18-40b0-95ff-d4e9b2749e8f")
 		)
 		(pin "RELAY_5" input
-			(at 153.416 108.458 0)
+			(at 153.67 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -492,7 +514,7 @@
 			(uuid "2bcd95e7-5282-4d5d-b667-b12ae1cbe27a")
 		)
 		(pin "RELAY_4" input
-			(at 153.416 104.648 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -503,7 +525,7 @@
 			(uuid "350d3819-3d7e-40bd-99dd-cf672ebd3bb8")
 		)
 		(pin "RELAY_2" input
-			(at 153.416 97.028 0)
+			(at 153.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,7 +536,7 @@
 			(uuid "76a29bdc-c090-4619-8c91-5e29f803cddf")
 		)
 		(pin "RELAY_3" input
-			(at 153.416 100.838 0)
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,7 +547,7 @@
 			(uuid "58532990-3ee5-4112-b377-882a1134ee1b")
 		)
 		(pin "RELAY_1" input
-			(at 153.416 93.218 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

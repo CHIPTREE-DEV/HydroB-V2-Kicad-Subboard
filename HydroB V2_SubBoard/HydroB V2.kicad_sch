@@ -5,7 +5,7 @@
 	(uuid "0a8bb8df-6bdd-4d10-933b-144d3fa4f517")
 	(paper "A4")
 	(lib_symbols)
-	(text "Sheet 1: Project review \n\nSheet 2: Block of the 5 relay\n\nSheet 3: Block of the sensor PH, EC...\n\nSheet 4: MCU STM32F103C8\n\nSheet 5: Block of Power supply the buck converter and regulator\n\nSheet 6: CANBUS TRANCEIVER\n"
+	(text "Sheet 1: Project review \n\nSheet 2: Block of the 5 relay\n\nSheet 3: Block of the sensor modbus\n\nSheet 4: MCU STM32F103C8\n\nSheet 5: Block of Power supply the buck converter and regulator\n\n\n"
 		(exclude_from_sim no)
 		(at 19.05 56.896 0)
 		(effects
