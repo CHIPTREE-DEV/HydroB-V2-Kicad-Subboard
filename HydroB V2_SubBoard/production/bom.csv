@@ -1,0 +1,37 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C10,0805,1,220nF,
+"C11, C12, C13, C24, C6, C7, C8",0603,7,100nf,
+"C14, C15",0603,2,22PF,
+C23,0805,1,1uF,
+C25,0805,1,c,
+"C26, C27, C28, C29",0805,4,22uF,
+C4,0805,1,4.7uf,
+C5,0603,1,0.1uF,C307331
+C9,CP_Elec_4x3,1,10uF,
+"D1, D16, D17, D4, D7, D8",0805,6,LED_Small,
+"D10, D2, D3, D5, D6",D_SMA,5,1N4007,
+"D11, D12, D13, D14, D9",0603,5,LED,
+D15,D_SOD-123F,1,D_TVS,
+"H5, H6, H7, H8",MountingHole_3mm_Pad_Via,4,MountingHole,
+J1,"PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical",1,Conn_01x02_Pin,
+"J10, J16, J3, J8, J9","TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",5,Screw_Terminal_01x02,
+J2,BarrelJack_Horizontal,1,12V,
+J4,PinHeader_1x04_P2.00mm_Vertical,1,Conn_01x04_Pin,
+"J5, J7",PinHeader_1x02_P2.00mm_Vertical,2,Conn_01x02_Pin,
+J6,"PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical",1,SENSOR,
+L2,L_Bourns_SRP5030T,1,10uH,
+"Q1, Q2, Q3, Q4, Q5, Q6, Q7",SOT-23,7,S8050,
+"R1, R11, R12, R13, R14, R20, R24, R25, R26, R27, R28, R29, R30, R31, R33, R9",0603,16,1k,
+"R10, R4",0603,2,2.1k,C25744
+R15,0603,1,120,C25744
+"R16, R18, R19, R2, R22, R23, R3, R32, R34",0603,9,10k,
+"R17, R21",0603,2,10k,C25744
+R5,0603,1,124,C25744
+"R6, R7",0603,2,100k,
+R8,0603,1,43.2k,
+SW1,SW_Tactile_SPST_Angled_PTS645Vx39-2LFS,1,SW_Push,
+U1,LQFP-48_7x7mm_P0.5mm,1,STM32F103C8Tx,
+"U10, U6, U7, U8, U9",RELAY-TH_SRS-12VDC-SL,5,~,
+U3,SOIC-8_3.9x4.9mm_P1.27mm,1,SN65HVD72DR, C48125
+U4,Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias,1,LMR33620ADDA,
+Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,8Mhz,
