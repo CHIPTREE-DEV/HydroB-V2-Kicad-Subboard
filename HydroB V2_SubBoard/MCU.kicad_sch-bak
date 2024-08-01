@@ -2926,15 +2926,15 @@
 		(uuid "29ed0811-d0aa-48df-9367-d8ee31d41806")
 	)
 	(no_connect
-		(at 130.81 125.73)
+		(at 97.79 102.87)
 		(uuid "44559b17-7bc3-4e1b-9ddf-483419a0139e")
 	)
 	(no_connect
-		(at 97.79 95.25)
+		(at 97.79 100.33)
 		(uuid "49b707b3-590d-4075-9775-7c37fa4f1cbd")
 	)
 	(no_connect
-		(at 130.81 102.87)
+		(at 97.79 110.49)
 		(uuid "54cce9d7-e51f-46ac-8b45-f68fef8fee5b")
 	)
 	(no_connect
@@ -2942,11 +2942,11 @@
 		(uuid "652261a9-cf0b-420e-bad2-0af3332fd206")
 	)
 	(no_connect
-		(at 130.81 118.11)
+		(at 97.79 107.95)
 		(uuid "7f3a9961-6052-42e9-9576-7838a1b3010f")
 	)
 	(no_connect
-		(at 97.79 97.79)
+		(at 97.79 105.41)
 		(uuid "8e7eb688-dcab-494b-b097-9d04f086453d")
 	)
 	(no_connect
@@ -2970,7 +2970,7 @@
 		(uuid "bbd86153-e867-449f-b69f-292826351c03")
 	)
 	(no_connect
-		(at 97.79 115.57)
+		(at 97.79 77.47)
 		(uuid "cc42d883-c91b-4538-8f67-6e725b602c58")
 	)
 	(no_connect
@@ -2990,7 +2990,7 @@
 		(uuid "dd9500d7-a47f-4088-a30b-d490d0bfa67c")
 	)
 	(no_connect
-		(at 130.81 105.41)
+		(at 130.81 110.49)
 		(uuid "de90d225-a468-4da9-94e2-d4a8ca91d230")
 	)
 	(no_connect
@@ -4177,7 +4177,7 @@
 	)
 	(global_label "LED1"
 		(shape input)
-		(at 130.81 110.49 0)
+		(at 130.81 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4187,7 +4187,7 @@
 		)
 		(uuid "3d53e4ff-6785-4707-855b-60a12bf5729f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.4518 110.49 0)
+			(at 138.4518 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4199,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 97.79 77.47 180)
+		(at 97.79 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4209,7 +4209,7 @@
 		)
 		(uuid "42ae9bb3-fcb4-4758-bad0-a927ec4af5dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.3577 77.47 0)
+			(at 91.3577 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4463,7 @@
 	)
 	(global_label "LED2"
 		(shape input)
-		(at 130.81 115.57 0)
+		(at 130.81 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4473,7 +4473,7 @@
 		)
 		(uuid "cf84b971-5f15-411e-ab36-b10ee52ca741")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.4518 115.57 0)
+			(at 138.4518 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,19 +4563,19 @@
 	)
 	(hierarchical_label "RELAY_2"
 		(shape input)
-		(at 97.79 107.95 180)
+		(at 130.81 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "077a56a4-f4da-48e5-a41f-0a69c2baede8")
 	)
 	(hierarchical_label "RELAY_4"
 		(shape input)
-		(at 97.79 100.33 180)
+		(at 97.79 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4599,19 +4599,19 @@
 	)
 	(hierarchical_label "RELAY_1"
 		(shape input)
-		(at 97.79 110.49 180)
+		(at 130.81 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "72744198-615b-45eb-bdd5-9032cb0d22bd")
 	)
 	(hierarchical_label "RELAY_5"
 		(shape input)
-		(at 97.79 102.87 180)
+		(at 97.79 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4635,13 +4635,13 @@
 	)
 	(hierarchical_label "RELAY_3"
 		(shape input)
-		(at 97.79 105.41 180)
+		(at 130.81 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d5881efe-4259-4aeb-9a8f-85ec41be9bc4")
 	)
@@ -5282,7 +5282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_5x5mm_CW"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 71.12 133.35 90)
 			(effects
 				(font
@@ -5418,7 +5418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 96.52 168.91 0)
 			(effects
 				(font
@@ -6858,7 +6858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 48.26 168.91 0)
 			(effects
 				(font

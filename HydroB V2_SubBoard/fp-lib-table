@@ -7,4 +7,5 @@
   (lib (name "relay 12vdc 3A")(type "KiCad")(uri "${KIPRJMOD}/New library/Library.pretty/relay 12vdc 3A.pretty")(options "")(descr ""))
   (lib (name "New library")(type "KiCad")(uri "${KIPRJMOD}/New library.pretty")(options "")(descr ""))
   (lib (name "CHIPTREE_LOGO")(type "KiCad")(uri "D:/kicad file/CHIPTREE_LOGO")(options "")(descr ""))
+  (lib (name "hydroB")(type "KiCad")(uri "${KIPRJMOD}/hydroB.pretty")(options "")(descr ""))
 )

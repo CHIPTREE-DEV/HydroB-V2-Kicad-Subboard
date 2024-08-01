@@ -2020,16 +2020,27 @@
 		)
 		(uuid "7a44d433-d6f7-49f4-9ff8-fe37363f9ba7")
 	)
-	(label "SW"
-		(at 151.13 100.33 0)
+	(global_label "A"
+		(shape input)
+		(at 151.13 100.33 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "d9d3360f-4732-42bc-8210-4987005844d4")
+		(uuid "59ed0432-e183-4458-bc4f-4c9b7656c84f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 96.2562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PG"
 		(shape input)
@@ -2574,7 +2585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:DC conn"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 69.85 106.68 0)
 			(effects
 				(font
