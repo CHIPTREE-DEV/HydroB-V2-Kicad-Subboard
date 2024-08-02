@@ -3825,71 +3825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 120.65 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15e8f747-4ab1-43da-81ec-07f9e9578b65")
-		(property "Reference" "#PWR010"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.984 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ae3862c-9ba7-4d8a-8d14-d3884672cdd7")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 210.82 41.91 0)
 		(unit 1)
@@ -4471,8 +4406,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "445R"
-			(at 118.11 88.9 90)
+		(property "Value" "28R"
+			(at 116.84 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,8 +4778,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "445R"
-			(at 257.81 35.56 90)
+		(property "Value" "28R"
+			(at 256.54 35.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,6 +6443,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 120.65 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b4727c0-f5f1-4a32-8e12-4375a9442c2f")
+		(property "Reference" "#PWR010"
+			(at 116.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 124.46 151.1301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 120.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc918a09-d3a1-46c5-a8fd-ad0707ee2a62")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/bce2cdfd-751e-4af0-a2eb-f587a83428f4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 74.93 0)
 		(unit 1)
@@ -7174,7 +7176,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "445R"
+		(property "Value" "28R"
 			(at 114.3 35.814 90)
 			(effects
 				(font
@@ -8224,8 +8226,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "445R"
-			(at 257.81 91.44 90)
+		(property "Value" "28R"
+			(at 256.54 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,8 +8579,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "445R"
-			(at 118.11 148.59 90)
+		(property "Value" "28R"
+			(at 116.84 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)

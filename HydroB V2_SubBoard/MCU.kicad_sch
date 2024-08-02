@@ -407,6 +407,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3003,6 +3105,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b2629a-cff6-4d5c-8343-576dbbed0758")
+	)
+	(wire
+		(pts
 			(xy 97.79 173.99) (xy 97.79 176.53)
 		)
 		(stroke
@@ -3103,6 +3215,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 163.83) (xy 48.26 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262c4937-426d-4d43-a9b9-b94ed10c1865")
+	)
+	(wire
+		(pts
 			(xy 49.53 173.99) (xy 50.8 173.99)
 		)
 		(stroke
@@ -3133,6 +3255,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 163.83) (xy 96.52 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0c2b22-66f8-42a0-a2a1-ca0144a0ecef")
+	)
+	(wire
+		(pts
 			(xy 207.01 43.18) (xy 220.98 43.18)
 		)
 		(stroke
@@ -3140,16 +3272,6 @@
 			(type default)
 		)
 		(uuid "2c354689-f69f-4a73-9033-a15c936c6cd9")
-	)
-	(wire
-		(pts
-			(xy 58.42 54.61) (xy 58.42 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c1599f-d148-47a3-af65-13665604ddc2")
 	)
 	(wire
 		(pts
@@ -3333,6 +3455,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 92.71) (xy 147.32 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595fed4e-4e03-4629-8825-3f2504aec704")
+	)
+	(wire
+		(pts
 			(xy 193.04 43.18) (xy 207.01 43.18)
 		)
 		(stroke
@@ -3340,26 +3472,6 @@
 			(type default)
 		)
 		(uuid "5a4fa18e-7ac8-4971-a35b-f7d5183ab226")
-	)
-	(wire
-		(pts
-			(xy 45.72 54.61) (xy 45.72 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b0b7827-bd01-49c6-a607-1c7ab4986768")
-	)
-	(wire
-		(pts
-			(xy 45.72 74.93) (xy 45.72 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bef015b-c530-48f7-a2ce-b1aa83cb74d6")
 	)
 	(wire
 		(pts
@@ -3400,6 +3512,16 @@
 			(type default)
 		)
 		(uuid "6b6dfd3a-c2f4-4789-904c-c0760a59a9ea")
+	)
+	(wire
+		(pts
+			(xy 85.09 163.83) (xy 86.36 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7f41fc-fd59-4901-927d-94c900ab4973")
 	)
 	(wire
 		(pts
@@ -3480,16 +3602,6 @@
 			(type default)
 		)
 		(uuid "7e5f1760-4d62-4c24-86ac-7c533d6bf058")
-	)
-	(wire
-		(pts
-			(xy 88.9 163.83) (xy 96.52 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2a987c-c6d1-4b96-9ba9-f59c1182f28f")
 	)
 	(wire
 		(pts
@@ -3583,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 64.77) (xy 58.42 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e31e205-6aca-4b68-a093-974c6fd78b4d")
-	)
-	(wire
-		(pts
 			(xy 219.71 123.19) (xy 219.71 134.62)
 		)
 		(stroke
@@ -3673,16 +3775,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 64.77) (xy 45.72 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b585bf7c-6fee-422f-865f-1e5168920f74")
-	)
-	(wire
-		(pts
 			(xy 113.03 130.81) (xy 113.03 138.43)
 		)
 		(stroke
@@ -3703,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 163.83) (xy 48.26 163.83)
+			(xy 36.83 163.83) (xy 38.1 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3893,16 +3985,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 58.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4e6e5ae-d668-4ed9-a6a9-e316718dc564")
-	)
-	(wire
-		(pts
 			(xy 207.01 33.02) (xy 207.01 35.56)
 		)
 		(stroke
@@ -4020,8 +4102,8 @@
 		(uuid b6526613-04dc-44b5-bb40-eaa5a907258c)
 	)
 	(rectangle
-		(start 27.94 20.32)
-		(end 157.48 149.86)
+		(start 25.4 20.32)
+		(end 160.02 149.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -4032,7 +4114,7 @@
 		(uuid cc89ee49-aa90-4a3d-a169-387dae1bccd9)
 	)
 	(rectangle
-		(start 27.94 154.94)
+		(start 25.4 154.94)
 		(end 73.66 193.04)
 		(stroke
 			(width 0)
@@ -4351,28 +4433,6 @@
 			)
 		)
 	)
-	(global_label "SWDIO"
-		(shape input)
-		(at 45.72 54.61 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8a9df12a-b299-4a94-9e14-d7a7bfc32d84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 45.7586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BOOT0"
 		(shape input)
 		(at 97.79 64.77 180)
@@ -4527,37 +4587,15 @@
 			)
 		)
 	)
-	(global_label "SWCLK"
-		(shape input)
-		(at 58.42 54.61 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fabc2028-5b9e-4652-866d-191c67ab4c3e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 45.3958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "RS485_RX"
 		(shape input)
-		(at 130.81 95.25 0)
+		(at 143.51 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "02bfd78f-563f-4b40-b107-f9421a940b02")
 	)
@@ -4623,7 +4661,7 @@
 	)
 	(hierarchical_label "RS485_TX"
 		(shape input)
-		(at 130.81 92.71 0)
+		(at 143.51 92.71 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4991,7 +5029,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 88.9 163.83 90)
+		(at 85.09 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5000,7 +5038,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c9657db-0123-4130-ac9a-127f640a6789")
 		(property "Reference" "#PWR057"
-			(at 92.71 163.83 0)
+			(at 88.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5047,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 85.09 163.8299 90)
+			(at 81.28 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 163.83 0)
+			(at 85.09 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +5065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 163.83 0)
+			(at 85.09 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 163.83 0)
+			(at 85.09 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,6 +5363,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 149.86 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38458f11-b755-4a98-b6d8-aed2f43244b4")
+		(property "Reference" "TP2"
+			(at 152.654 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 150.368 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3f5af4d-85a7-4556-ae75-d793443a53d0")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a2fe698-fb96-45d7-a899-e3a6aec4856f")
+		(property "Reference" "R21"
+			(at 88.138 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Variable Resistor"
+			(at 78.486 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 90.17 165.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52bcd072-6154-4c71-b6b6-ca90173e99da")
+		)
+		(pin "2"
+			(uuid "62b493e0-f8db-4bff-b7f1-a09f153e5acc")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 194.31 83.82 0)
 		(unit 1)
@@ -5537,74 +5710,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 58.42 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49d8fe34-0fa0-41af-a290-5942ed71295a")
-		(property "Reference" "R29"
-			(at 64.77 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 62.23 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 56.642 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "600a9e3d-0ce2-4b2d-98e7-8eca05c6e956")
-		)
-		(pin "2"
-			(uuid "c5f52659-f87c-4d7d-a797-6226f276d5e6")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 204.47 133.35 0)
 		(unit 1)
@@ -5622,7 +5727,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22PF"
+		(property "Value" "22pF"
 			(at 206.756 134.62 0)
 			(effects
 				(font
@@ -5668,74 +5773,6 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 58.42 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ec7d834-47b0-4ef9-8001-889b452f0ab4")
-		(property "Reference" "#PWR054"
-			(at 58.42 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.4201 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d62650e-afcb-46bd-a030-58bc20199d8f")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5895,7 +5932,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22PF"
+		(property "Value" "22pF"
 			(at 227.33 134.6262 0)
 			(effects
 				(font
@@ -6289,6 +6326,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68269c2c-51d4-453e-b957-d2e403da927a")
+		(property "Reference" "TP1"
+			(at 149.098 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.558 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f48e206-fb94-43b7-9732-952ce8f5af1e")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 97.79 180.34 180)
 		(unit 1)
@@ -6565,7 +6668,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 40.64 163.83 90)
+		(at 36.83 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6574,7 +6677,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bf8645e-9779-41bb-996d-39612c03bc44")
 		(property "Reference" "#PWR038"
-			(at 44.45 163.83 0)
+			(at 40.64 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6686,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 36.83 163.8299 90)
+			(at 33.02 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +6695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 163.83 0)
+			(at 36.83 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 163.83 0)
+			(at 36.83 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6713,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 163.83 0)
+			(at 36.83 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,74 +7348,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 45.72 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fdf3cd7-7736-4485-bba9-5e33f2308208")
-		(property "Reference" "D17"
-			(at 52.07 72.3265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 49.53 72.3265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 45.72 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 45.72 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ee368e6-bd54-495d-97e8-ab571c0ecd4f")
-		)
-		(pin "2"
-			(uuid "fe18bd97-a8af-4a1f-8c1c-29478b2ae4cb")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 77.47 146.05 90)
@@ -7375,6 +7410,75 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b71daa20-2b48-4ef5-a528-c7f65fc0538e")
+		(property "Reference" "R17"
+			(at 39.878 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Variable Resistor"
+			(at 30.226 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 41.91 165.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40170c99-3815-4deb-9182-a5348eddab71")
+		)
+		(pin "2"
+			(uuid "4d556240-f1a4-45bf-a922-5adb7be7d67e")
+		)
+		(instances
+			(project "HydroB V2"
+				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7518,74 +7622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 45.72 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1f78285-35d8-493e-8e4e-80ee254e12fc")
-		(property "Reference" "R30"
-			(at 52.07 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 43.942 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a0ff12e-7d14-4c40-9bff-739a45d840c3")
-		)
-		(pin "2"
-			(uuid "d1668a7a-4105-4525-87ae-66ff1ba25268")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 220.98 38.1 0)
 		(unit 1)
@@ -7650,74 +7686,6 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 45.72 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5e4d351-9221-4dae-b6f9-b0688c4b692c")
-		(property "Reference" "#PWR055"
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.7201 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18020cfb-9249-4384-870a-3513cc2b76a5")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -8272,74 +8240,6 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 58.42 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f395fae7-2998-4738-9d9a-f1237540aa58")
-		(property "Reference" "D16"
-			(at 64.77 72.3265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 62.23 72.3265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 58.42 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e77a252-dc38-45e5-ba91-155da6883264")
-		)
-		(pin "2"
-			(uuid "aa1a4526-825a-4fa7-9d22-2f5c600814c6")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/ec9ee8ef-fc9d-4925-9304-49bf7b4d5612"
-					(reference "D16")
 					(unit 1)
 				)
 			)
