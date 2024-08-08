@@ -1694,16 +1694,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 100.33) (xy 224.79 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bce4553-7a14-4bfe-8d73-426764c6d02e")
-	)
-	(wire
-		(pts
 			(xy 187.96 129.54) (xy 198.12 129.54)
 		)
 		(stroke
@@ -1984,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 100.33) (xy 218.44 100.33)
+			(xy 208.28 100.33) (xy 214.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2184,7 +2174,7 @@
 	)
 	(rectangle
 		(start 46.99 74.93)
-		(end 252.73 140.97)
+		(end 243.84 140.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -3309,7 +3299,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 224.79 100.33 270)
+		(at 214.63 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3318,7 +3308,7 @@
 		(fields_autoplaced yes)
 		(uuid "abee0742-e40c-434f-a90b-e248f6a98504")
 		(property "Reference" "#PWR021"
-			(at 220.98 100.33 0)
+			(at 210.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3317,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 228.6 100.3299 90)
+			(at 218.44 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 100.33 0)
+			(at 214.63 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 100.33 0)
+			(at 214.63 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 224.79 100.33 0)
+			(at 214.63 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,75 +3635,6 @@
 			(project "HydroB V2"
 				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/d50825f3-7645-4f22-8c9c-6a6002c3efba"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 218.44 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4f76bd4-956b-49d8-9465-4f727c2e5053")
-		(property "Reference" "J12"
-			(at 213.36 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 209.804 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
-			(at 218.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 218.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2221340c-05d6-4d68-a754-9c8066f95361")
-		)
-		(pin "1"
-			(uuid "861e27ed-62f8-4c84-bf11-410d1f9e718e")
-		)
-		(instances
-			(project "HydroB V2"
-				(path "/0a8bb8df-6bdd-4d10-933b-144d3fa4f517/b5cea501-254b-4c6a-af47-d8c013c279ab/d50825f3-7645-4f22-8c9c-6a6002c3efba"
-					(reference "J12")
 					(unit 1)
 				)
 			)
